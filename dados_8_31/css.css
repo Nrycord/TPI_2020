@@ -1,0 +1,123 @@
+body{
+    background-color: #19535F;
+    color: #242a31;
+    font-family: "Monaco","Garamond", "Courier";
+    font-size: 20px;
+}
+
+ol {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+ol li{
+    margin-bottom: 10px;
+}
+.content{
+    text-align: center;
+    margin: 10px;
+    background-color: #23E78B;
+    width: 95%;
+    height: 800px;
+    padding: 30px;
+    overflow: auto;
+}
+.titulo{
+    font-size: 100px;
+}
+.inlineB{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.separator{
+    display: block;
+    width: 100%;
+}
+.dado{  
+    background-color: #A1CDF4;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 1px;
+    border-radius: 20px;
+    position: relative;
+    border: solid 5px black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);    
+}
+.btn{
+    display: block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #e7e7e7; color: black;
+    font-size: 24px;
+    padding: 32px 16px;
+    border-radius: 12px;
+    text-align: center;
+    margin: auto;
+}
+.blackDot{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: #000;
+    border-radius: 50%;
+    transform: translate(-8px, -8px);
+}
+.impar-1 {
+  top: 50%;
+  left: 50%;
+}
+
+.par-1,
+.impar-2 {
+  top: 25%;
+  left: 25%;
+}
+
+.par-2,
+.impar-3 {
+  top: 75%;
+  left: 75%;
+}
+
+.par-3,
+.impar-4 {
+  top: 75%;
+  left: 25%;
+}
+
+.par-4,
+.impar-5 {
+  top: 25%;
+  left: 75%;
+}
+
+.par-5 {
+  top: 50%;
+  left: 75%;
+}
+  
+.par-6 {
+  top: 50%;
+  left: 25%;
+}
+
+.registro{
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    margin: 1%;
+    border: black 5px solid;
+    border-radius: 25%;
+}
+.jugador1{
+    background-color: #9685EA;
+
+}
+.jugador2{
+    background-color: #EEAABB;
+}

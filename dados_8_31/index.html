@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del dado</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div class="content">
+
+    <h1 class="titulo" id="titulo">Juego de dados</h1>
+    <center>
+        <h3>Puntaje J1: <span class="points inlineB" id="point1">0</span></h3>
+        <h3>Puntaje J2: <span class="points inlineB" id="point2">0</span></h3>
+    </center>
+    <span class="separator"></span>
+    <h3 class="inlineB">Jugador 1</h3>
+    <h3 class="inlineB">Jugador 2</h3>
+    
+    <span class="separator"></span>
+    <div class="dado dado1 inlineB" id="dado1"></div>
+    <!--<span class="separator"></span>-->
+    <div class="dado dado2 inlineB" id="dado2"></div>
+    <button class="btn" id="btn">Jugar</button>
+</div>
+
+<div class="content">
+    <h1 class="titulo">Historial de registros</h1>
+    <span class="separator"></span>
+    <div class="registro jugador1">
+        <h1>Jugador 1</h1>
+        <ol><div id="jugador1"></div></ol>
+    </div>
+    <div class="registro jugador2">
+        <h1>Jugador 2</h1>
+        <ol><div id="jugador2"></div></ol>
+    </div>
+
+</div>
+
+</body>
+<script src="js.js"></script>
+</html>
